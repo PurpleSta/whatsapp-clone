@@ -1,0 +1,30 @@
+
+/*ARTICLE*/
+article{
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+    border: none;
+    text-align: center;
+    background-image: url("https://tinyurl.com/3etpbzdh");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.chatting-area-header{
+    display: none;
+}
+
+.landingPage button{
+    padding: 10px;
+    background-color: rgb(10, 178, 178);
+    border: none;
+    border-radius: 10px/45%;
+    font-size: 15px;
+}
+
+.landingPage button a{
+    text-decoration: none;
+    color: black;
+}

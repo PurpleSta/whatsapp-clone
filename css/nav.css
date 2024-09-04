@@ -1,0 +1,32 @@
+/*Navigation bar*/
+main nav{
+    margin: 0 auto;
+    padding: 0;
+    width: 5%;
+    color: black;
+    border-right: 1px solid lightgray;
+}
+
+main nav .top img{
+    margin: 20px auto;
+    display: block;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+
+}
+
+main nav .bottom{
+    position: absolute;
+    bottom: 0;
+    width: 5%;
+}
+
+main nav .bottom li a i{
+    display: block;
+    padding: 0 0 10px 20px;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}

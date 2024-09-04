@@ -1,0 +1,418 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/*HEADER*/
+header{
+    margin: 0 auto;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+}
+
+#title1{
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+    width: 50%;
+}
+
+#title1 .bi-list,.bi-x{
+    position: absolute;
+    left: 10px;
+    font-size: 30px;
+    color: white;
+    display: none;
+}
+
+#title1 a{
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 2px 0px white,-2px 0px blue,0px -1px aqua;
+    width: auto;
+    font-size: 45px;
+}
+
+#lists{
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+}
+
+#lists ul{
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    height: 100%;
+}
+
+#lists ul li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    display: block;
+    font-weight: bold;
+    opacity: 0.9;
+    margin-top: 10px;
+}
+
+#lists ul li a:hover{
+    color: wheat;
+    opacity: 1;
+}
+
+/*MAIN*/
+main{
+    margin: 10vh 0 0 0;
+    padding: 0;
+    background-color: rgb(89, 121, 89);
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+/*LANDING PAGE*/
+#landing{
+    margin: 10px auto;
+    padding: 30px;
+    width: 85%;
+    height: auto;
+    border-radius: 10px;
+}
+#landing:target{
+    display: block;
+}
+
+#landing h1{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: monospace;
+    color: gold;
+    font-size: 70px;
+}
+
+#landing #one,#two,#three{
+    font-size: 40px;
+}
+
+#landing #one{
+    color: black;
+    font-weight: bold;
+}
+
+#landing #two{
+    color: rgb(63, 130, 255);
+}
+
+#landing #three{
+    color: black;
+    font-weight: bold;
+}
+
+#landing #four  div{
+    font-size: 50px;
+    text-decoration: underline;
+    font-weight: bold;
+    color: turquoise;
+}
+
+#landing div ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+#landing div ul li{
+    padding-right: 5px;
+}
+
+#landing div ul li img{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+#landing div ul #five img{
+    width: 300px;
+    height: 100px;
+}
+
+#one,#two,#three,#four,#five,#six,#seven{
+    visibility: hidden;
+}
+
+/*ABOUT*/
+#about{
+    margin: 10px auto;
+    padding: 20px;
+    width: 85%;
+    height: auto;
+    display: none;
+    background: rgb(147, 196, 147);
+    border-radius: 10px;
+}
+
+#about:target{
+    display: block;
+}
+
+#about h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 60px;
+}
+#about-content{
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: black;
+}
+#about-content img{
+    margin: 0 auto;
+    width: 40%;
+    height: 400px;
+    border-radius: 10px;  
+}
+
+#about-content img:hover{
+    outline-style: solid;
+    outline-color: orange;
+    outline-width: 3px;    
+}
+
+#a2{
+    margin: 0 auto;
+    width: 55%;
+    background-color: aliceblue;
+    border-radius: 10px; 
+    padding: 50px 20px;
+    font-size: 30px;
+    word-spacing: 3px;
+}
+
+#a2:hover{
+    outline-style: solid;
+    outline-color: orange;
+    outline-width: 3px;
+    background-color: teal;
+    color: white;
+}
+
+i{
+    font-weight: bold;
+    font-style: normal;
+    text-transform: capitalize;
+}
+
+/*EXPERIENCE*/
+#experience{
+    margin: 10px auto;
+    padding: 0;
+    width: 85%;
+    height: auto;
+    display: none;
+    background-color: rgb(172, 185, 172);
+    border-radius: 10px;
+}
+
+#experience:target{
+    display: block;
+}
+
+#experience h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 60px;
+}
+#experience-content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+    
+#experience1{
+    width: 20%;
+    margin: 10px;
+    background-color: teal;
+    color: white;
+}
+#experience1 div{
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#experience1 img{
+    width: 100%;
+    height: 200px;
+}
+
+/*EDUCATION*/
+#education{
+    margin: 10px auto;
+    padding: 20px;
+    width: 85%;
+    height: auto;
+    border-radius: 20px;
+    background-color: rgb(147, 168, 147);
+    display: none;
+}
+
+#education:target{
+    display: block;
+}
+
+#education h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 60px;
+}
+
+#education-content{
+    display: flex;
+    justify-content: center;
+
+}
+
+#education-content #education1{
+    width: 20%;
+    margin: 10px;
+    background-color: teal;
+    font-weight: bold;
+    color: aliceblue;
+    text-transform: capitalize;
+}
+
+#education1 img{
+    width: 100%;
+    height: 200px;
+}
+
+/*SKILLS*/
+#skills{
+    margin: 10px auto;
+    padding: 20px;
+    width: 85%;
+    height: auto
+    ;
+    border-radius: 20px;
+    display: none;
+    background-color: rgb(163, 189, 163);
+}
+
+#skills:target{
+    display: block;
+}
+
+#skills h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 60px;
+}
+
+#skills-content{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: right;
+}
+
+#skills1{
+    width: 30%;
+    background-color: teal;
+    margin: 20px;
+    color: whitesmoke;
+    text-transform: capitalize;
+    padding: 30px;
+    border: none;
+    border-radius: 10px/60%;
+}
+
+#skills1 ul{
+    list-style-type: disc;
+    display: block;
+}
+
+h4{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#skills1:hover{
+    background-color: aliceblue;
+    color: black;
+    transition-duration: 2s;
+    outline-style: solid;
+    outline-color: orange;
+    outline-width: 2px;
+
+}
+
+#skills1:hover h4{
+    color: red;
+}
+
+/*FOOTER*/
+footer{
+    background-color: rgb(58, 44, 44);
+    color: white;
+    padding: 10px;
+    text-transform: capitalize;
+    font-family:monospace;
+    font-size: 19px;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+}
+
+footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: right;
+}
+footer p{
+    width: 50%;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+footer ul li a i{
+    background-color: inherit;
+    color: white;
+    padding: 5px;
+    text-align: right;
+}
+
+footer ul li a i img{
+    background-color:white; 
+    width:18px;height:18px; 
+    border-radius:50%;
+    padding: 1px;
+}

@@ -6,18 +6,22 @@
     <link rel="icon" href="https://static.whatsapp.net/rsrc.php/v3/yP/r/rYZqPCBaG70.png">
     <title>WhatsApp</title>
     <link rel="stylesheet" href="css/home.css">
-    <script src="https://kit.fontawesome.com/1446a950db.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/article.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     
 </head>
 <body>
     <main>
+
+        <!--NAVIGATION-->
         <nav>
-            <ul class="top">  
-                <li><a href=""><i class="bi-chat-left-text" title="Chats"></i></a></li>
-                <li><a href=""><i class="bi-" title="Status"></i></a></li>
-                <li><a href=""><i class="bi-" title="Channnels"></i></a></li>
-                <li><a href=""><i class="bi-people" title="communities"></i></a></li>
+            <ul class="top"> 
+                <li><a href=""><img src="images/messages.png" alt="" title=""></a></li>
+                <li><a href=""><img src="images/updates.png" alt="" title=""></a></li>
+                <li><a href=""><img src="images/channel.png" alt="" title=""></a></li>
+                <li><a href=""><img src="images/communities.png" alt="" title=""></a></li>
             </ul>
             <ul class="bottom">
                 <li><a href=""><i class="bi-gear" title="Settings"></i></a></li>
@@ -25,24 +29,47 @@
             </ul>
         </nav>
 
+        <!--ASIDE-->
         <aside>
             <!--Chats section fixed-->
-            <h1 class="chats-section-header">Chats <span> <i class="bi-chat-left-text"></i> <i class="bi-three-dots-vertical"></i></span></h1>
-            <div class="chat-section-body">
+            <h1 class="chats-section-header">
+                <span>Chats</span>
+                <span class="float-right">
+                    <img src="images/newMessage.png" alt="New message"> 
+                    <i class="bi-three-dots-vertical"></i>
+                </span>
+            </h1>
+
+            <div class="searchbutton">
+                <label for="search"><i class="bi-search"></i>
+                    <input type="search" name="search" id="search" placeholder="Search">
+                </label>
+            </div>
+
+            <div class="navbutton">
+                <button>All</button>
+                <button>Unread</button>
+                <button>Groups</button>
+            </div>
+
+            <div class="chats-section-body">
+                
                 <!--Chats section preview scrollable-->
+                no chats
             </div>
         </aside>
 
+        <!--ARTICLE -->
         <article>
             <!--Chatting are profile with video and call icon-->
             <div class="chatting-area-header">
                 <h1> <span><i class="bi-search"></i> <i class="bi-three-dots-vertical"></i></span></h1>
             </div>
-            <div>
+            <div class="landingPage" id="landingPage">
                 <img src="https://static.whatsapp.net/rsrc.php/v3/y6/r/wa669aeJeom.png" alt="">
-                <h1>download whatsapp for windows</h1>
-                <p>make calls, share your screen and get a faster experience when you download the windows app</p>
-                <button><a href="">get from microsoft store</a></button>
+                <h1>Download Whatsapp for Windows</h1>
+                <p>Make calls, share your screen and get a faster experience when you download the Windows app</p>
+                <button><a href="">Get from Microsoft Store</a></button>
             </div>
             <div class="chatting-area-body">
             </div>
@@ -52,5 +79,6 @@
             </div>
         </article>
     </main>
+    <script src="js/home.js"></script>
 </body>
 </html>

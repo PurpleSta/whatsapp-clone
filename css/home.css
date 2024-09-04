@@ -15,22 +15,7 @@ main{
     width: 100%;
     height: 100vh;
 }
-/*Navigation bar*/
-main nav{
-    margin: 0 auto;
-    padding: 0;
-    width: 10%;
-    color: black;
-}
 
-/*ASIDE*/
-main aside{
-    margin: 0 auto;
-    padding: 0;
-    width: 30%;
-    background-color: black;
-    color: white;
-}
 
 main ul{
     margin: 0;
@@ -40,14 +25,4 @@ main ul{
 
 main ul li a{
     text-decoration: none;
-}
-
-/*ARTICLE*/
-main article{
-    margin: 0 auto;
-    padding: 0;
-    width: 60%;
-    border: none;
-    color: white;
-    background-image: url("https://tinyurl.com/3etpbzdh");
 }
