@@ -1,0 +1,14 @@
+#channel{
+    margin: 0 auto;
+    padding: 0;
+    background-color: gold;
+    position: absolute;
+    display: none;
+    width: 100%;
+}
+
+#channel:target{
+    margin: 0;
+    display: block;
+    height: 100vh;
+}
