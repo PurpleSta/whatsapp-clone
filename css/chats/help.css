@@ -1,0 +1,19 @@
+#help{
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(50, 55, 55);
+    position: absolute;
+    display: none;
+    width: 100%;
+    color: white;
+}
+
+#help:target{
+    margin: 0;
+    display: block;
+    height: 100vh;
+}
+#help i{
+    font-size: 25px;
+    color: white;
+}

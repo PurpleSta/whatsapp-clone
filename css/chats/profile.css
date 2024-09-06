@@ -1,0 +1,14 @@
+#profile{
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(246, 204, 125);
+    position: absolute;
+    display: none;
+    width: 100%;
+}
+
+#profile:target{
+    margin: 0;
+    display: block;
+    height: 100vh;
+}
