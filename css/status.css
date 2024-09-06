@@ -1,0 +1,14 @@
+#status{
+    margin: 0 auto;
+    padding: 0;
+    background-color: green;
+    position: absolute;
+    display: none;
+    width: 100%;
+}
+
+#status:target{
+    margin: 0;
+    display: block;
+    height: 100vh;
+}
