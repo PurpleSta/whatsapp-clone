@@ -4,70 +4,9 @@
 /*ASIDE*/
 aside{
     margin: 0 auto;
-    padding: 10px;
+    padding: 0px;
+    position: relative;
     width: 25%;
     border-right: 1px solid lightgray;
-}
-aside .chats-section-header{
-    margin: 0 auto;
-    padding: 5px 0 5px 0;
-    position: relative;
-}
-
-aside .chats-section-header .float-right {
-    position: absolute;
-    right: 0;
-}
-
-aside .chats-section-header img{
-    width: 22px;
-    height: 22px;
-    border: none;
-    border-radius: 50%;
-    margin-right: 5px;
-}
-
-aside .searchbutton{
-    margin: 0 auto;
-    padding: 5px 0 5px 10px;
-    border-radius: 10px;
-    width: 100;
-    background-color: rgb(210, 231, 250);
-
-}
-
-aside input{
-    display: inline-block;
-    height: inherit;
-    width: 90%;
-    border: none;
-    background-color: inherit;
-    font-size: 20px;
-}
-
-aside .chats-section-body{
-    margin: 0 auto;
-    padding: 250px 0 0 100px;
-    background-color: black;
-    color: white;
-    height: 80%;
-    text-transform: capitalize;
-    width: 100%;
-}
-
-aside .navbutton{
-    margin: 0 auto;
-    padding: 10px 0 10px 0;
-}
-
-aside .navbutton button{
-    padding: 5px;
-    color: black;
-    border-radius: 10px/50%;
-    border: none;
-}
-
-aside .navbutton button:hover{
-    background-color: rgba(18, 87, 18, 0.916);
-    color: rgb(5, 233, 5);    
+    font-family:Arial, Helvetica, sans-serif;
 }
