@@ -1,0 +1,63 @@
+#chats{
+    margin: 0 auto;
+    padding: 15px;
+    background-color: black;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    box-sizing: border-box;
+
+}
+
+#chats:target{
+    margin: 0;
+    display: block;
+    height: 100vh;
+}
+
+.chats-1{
+    display: flex;
+    justify-content: left;
+}
+
+.chats-1 h1{
+    margin: 0;
+    padding: 0;
+    width: 70%;
+}
+
+.chats-1 div{
+    padding: 10px;
+    width: 15%;
+}
+
+.chats-1 div i{
+    font-size: 20px;
+}
+
+#chats .searchbutton{
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgb(4, 53, 4);
+
+}
+
+#chats .searchbutton input{
+    display: inline-block;
+    height: inherit;
+    width: 90%;
+    border: none;
+    background-color: inherit;
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+    margin: 0 0 0 10px;
+}
+
+#chats .searchbutton label .bi-arrow-left{
+    display: none;
+}
+
