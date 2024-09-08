@@ -20,4 +20,24 @@ biSearchHide.addEventListener("click",function(){
 biArrowLeftShow.addEventListener("click",function(){
     document.getElementById("bi-search-hide").style.display="none";
     document.getElementById("bi-arrow-left-show").style.display="inline-block";
-})
+});
+
+const getChats=document.getElementById("getChats");
+getChats.addEventListener("click",function(){
+    document.getElementById("chats").display="block"
+});
+
+const getStatus=document.getElementById("getStatus");
+getStatus.addEventListener("click",function(){
+
+});
+
+const getChannels=document.getElementById("getChannels");
+getChannels.addEventListener("click",function(){
+
+});
+
+const getCommunities=document.getElementById("getCommunities");
+getCommunities.addEventListener("click",function(){
+
+});
