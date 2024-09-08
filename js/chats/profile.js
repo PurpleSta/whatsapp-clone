@@ -8,4 +8,4 @@ const showArrow=document.getElementById("showArrow");
 
 showArrow.addEventListener("click",function(){
     document.getElementById("profileArrow").style.display="inline-block";
-})
+});
