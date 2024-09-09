@@ -24,20 +24,65 @@ biArrowLeftShow.addEventListener("click",function(){
 
 const getChats=document.getElementById("getChats");
 getChats.addEventListener("click",function(){
-    document.getElementById("chats").display="block"
+    document.getElementById("chats").style.display="block";
+    document.getElementById("status").style.display="none";
+    document.getElementById("channel").style.display="none";
+    document.getElementById("communities").style.display="none";
+    document.getElementById("settings").style.display="none";
+    document.getElementById("profile").style.display="none";
 });
 
 const getStatus=document.getElementById("getStatus");
 getStatus.addEventListener("click",function(){
-
+    document.getElementById("chats").style.display="none";
+    document.getElementById("status").style.display="block";
+    document.getElementById("channel").style.display="none";
+    document.getElementById("communities").style.display="none";
+    document.getElementById("settings").style.display="none";
+    document.getElementById("profile").style.display="none";
 });
 
 const getChannels=document.getElementById("getChannels");
 getChannels.addEventListener("click",function(){
+    document.getElementById("chats").style.display="none";
+    document.getElementById("status").style.display="none";
+    document.getElementById("channel").style.display="block";
+    document.getElementById("communities").style.display="none";
+    document.getElementById("settings").style.display="none";
+    document.getElementById("profile").style.display="none";
 
 });
 
 const getCommunities=document.getElementById("getCommunities");
 getCommunities.addEventListener("click",function(){
+    document.getElementById("chats").style.display="none";
+    document.getElementById("status").style.display="none";
+    document.getElementById("channel").style.display="none";
+    document.getElementById("communities").style.display="block";
+    document.getElementById("settings").style.display="none";
+    document.getElementById("profile").style.display="none";
+});
+
+const getSettings=document.getElementById("getSettings");
+getSettings.addEventListener("click",function(){
+    document.getElementById("chats").style.display="none";
+    document.getElementById("status").style.display="none";
+    document.getElementById("channel").style.display="none";
+    document.getElementById("communities").style.display="none";
+    document.getElementById("settings").style.display="block";
+    document.getElementById("profile").style.display="none";
 
 });
+
+const getProfile=document.getElementById("getProfile");
+getProfile.addEventListener("click",function(){
+    document.getElementById("chats").style.display="none";
+    document.getElementById("status").style.display="none";
+    document.getElementById("channel").style.display="none";
+    document.getElementById("communities").style.display="none";
+    document.getElementById("profile").style.display="block";
+    document.getElementById("settings").style.display="none";
+    
+})
+
+
