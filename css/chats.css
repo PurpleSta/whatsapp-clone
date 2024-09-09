@@ -8,12 +8,6 @@
     box-sizing: border-box;
 }
 
-#chats:target{
-    margin: 0;
-    display: block;
-    height: 100vh;
-}
-
 .chats-1{
     display: flex;
     justify-content: left;
@@ -82,5 +76,26 @@
 #unread,#groups{
     background-color:rgb(73, 72, 72);
     color: grey;
+}
+
+#checkonline{
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    width: 100%;
+}
+
+#checkonline .checkonline-icon{
+    width: 20%;
+    background-color: red;
+}
+
+#checkonline .checkonline{
+    width: 50%;
+    background-color: aqua;
+}
+
+#checkonline .reconnect{
+    width: 15%;
 }
 
