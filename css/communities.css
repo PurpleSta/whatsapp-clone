@@ -6,8 +6,3 @@
     display: none;
     width: 100%;
 }
-
-#communities:target{
-    display: block;
-    height: 100vh;
-}
