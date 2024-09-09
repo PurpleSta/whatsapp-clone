@@ -6,9 +6,3 @@
     display: none;
     width: 100%;
 }
-
-#channel:target{
-    margin: 0;
-    display: block;
-    height: 100vh;
-}
