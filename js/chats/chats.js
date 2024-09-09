@@ -25,3 +25,12 @@ groups.addEventListener("click",function(){
     document.getElementById("unread").style.backgroundColor="rgb(73, 72, 72)";
     document.getElementById("unread").style.color="grey";
 })
+
+//checking online presence
+const checkOnline=navigator.onLine;
+if (checkOnline==false){
+    document.getElementById("checkonline").style.display="block";
+}
+else{
+    document.getElementById("checkonline").style.display="none";
+}
