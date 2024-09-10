@@ -71,11 +71,13 @@
 #all{
     background-color: rgb(0, 38, 0);
     color: green;
+    padding: 5px 10px;
 }
 
 #unread,#groups{
     background-color:rgb(73, 72, 72);
     color: grey;
+    padding: 5px 10px;
 }
 
 #checkonline{
@@ -92,10 +94,39 @@
 
 #checkonline .checkonline{
     width: 50%;
-    background-color: aqua;
 }
 
 #checkonline .reconnect{
     width: 15%;
 }
 
+#chats-body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+#archive{
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+}
+
+#archive div{
+    margin: 10px;
+    font-size: 20px;
+}
+
+#archive div i{
+    color: limegreen;
+}
+
+.chat-footer{
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+}
+
+#chats .chat-footer div{
+    margin: 1px auto;
+    font-size: 12px;
+}
