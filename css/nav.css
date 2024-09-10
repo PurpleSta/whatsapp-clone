@@ -7,14 +7,28 @@ main nav{
     border-right: 1px solid lightgray;
 }
 
+main nav .top{
+    padding: 0px 15px;
+}
+
+main nav .top li{
+    padding: 5px;
+}
+
 main nav .bottom{
     position: absolute;
     bottom: 0;
+    padding:0 0 15px 15px;
 }
 
-main nav .bottom li i{
+main nav .bottom li{
     display: block;
     font-size: 20px;
     color: black;
     font-weight: bold;
+    padding: 5px;
+}
+
+main nav .bottom li i{
+    font-size: 24px;
 }
