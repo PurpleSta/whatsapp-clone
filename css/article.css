@@ -3,10 +3,9 @@
 article{
     margin: 0 auto;
     padding: 0;
-    width: 70%;
+    width: 65%;
     border: none;
     text-align: center;
-    background-image: url("https://tinyurl.com/3etpbzdh");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -15,6 +14,22 @@ article{
 
 .chatting-area-header{
     display: none;
+}
+
+.landingPage{
+    margin: 0 auto;
+    padding: 180px 0 0;
+    height: 100vh;
+    background-color: darkcyan;
+}
+
+.landingPage img{
+    width: 40%;
+}
+
+.landingPage p{
+    margin: 0 auto;
+    width: 60%;
 }
 
 .landingPage button{
@@ -28,4 +43,10 @@ article{
 .landingPage button a{
     text-decoration: none;
     color: black;
+}
+
+.chatting-area-body{
+    margin: 0 auto;
+    padding: 0;
+    background-image: url("https://tinyurl.com/3etpbzdh");
 }
