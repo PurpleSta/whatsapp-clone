@@ -25,8 +25,11 @@ def chats():
         return redirect(url_for('index'))  # Redirect to login page if not logged in
 
     user = User.query.filter_by(username=session['username']).first()
-    if not user:
-        return redirect(url_for('index'))  # Redirect if user not found
+    if user:
+    # Do something with the user, such as displaying their info or using their ID
+        print(f"Logged in as {user.username}")
+    else:
+        print("User not found")
 
     messages = Message.query.order_by(Message.timestamp.asc()).all()  # Fetch all messages sorted by time
     chat_data = [{'user': message.user.username, 'content': message.content, 'timestamp': message.timestamp} for message in messages]
